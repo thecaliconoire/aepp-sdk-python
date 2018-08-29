@@ -51,7 +51,7 @@ def decode(data):
 
 def hash(data):
     """run the default hashing algorihtm"""
-    return _blacke2b_digest(data)
+    return _blake2b_digest(data)
 
 
 def hash_encode(prefix, data):
