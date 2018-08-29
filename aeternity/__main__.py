@@ -479,7 +479,7 @@ def contract_deploy(contract_file, gas):
     try:
         with open(contract_file) as fp:
             code = fp.read()
-            contract = Contract(code, client=_epoch_cli())
+            contract = contract(code, client=_epoch_cli())
             kp, _ = _keypair()
             tx = contract.tx_create(kp, gas=gas)
 
