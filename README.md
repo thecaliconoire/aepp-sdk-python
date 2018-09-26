@@ -15,7 +15,11 @@ The SDK required Python 3. For out of the box use, it is recommended to use
 
 ```
 python3 -m venv venv
+Linux/Apple: 
 source venv/bin/activate
+Or
+Micrsoft Windows: 
+source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
